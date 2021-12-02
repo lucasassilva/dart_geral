@@ -1,0 +1,28 @@
+void main(){
+  
+List <double> notas = List <double>(4); // Definindo uma lista com tamanho fixo
+notas[0] = 10.0;
+notas[1] = 8.0;
+notas[2] = 5.0;
+notas[3] = 4.0;
+
+print(notas);
+
+List <String> alunos = []; // Definindo uma lista sem um tamanho fixo
+
+alunos.add('João');
+alunos.add('Jorge');
+alunos.add('Jamilton');
+
+alunos.removeAt(1); // Remover um item na lista 
+print(alunos);
+print(alunos.contains('Jorge')); // Retorna um booleano caso valor literal esteje na lista
+print(alunos.first); // Primeiro item da lista
+print(alunos.last); // Ultimo item da lista
+print(alunos.length); // Quantidade de items na lista
+
+  
+  
+  
+}
+

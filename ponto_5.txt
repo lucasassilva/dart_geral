@@ -1,0 +1,33 @@
+
+a lista ordenada enumera os elementos;
+a lista não-ordenada coloca marcadores antes de cada elemento.
+
+Iterable - É coleção de dados em que:
+	        - não é indexada
+            - é estrutura ordenada
+            - possivel incluir elementos duplicados
+
+Map - É coleção de dados chave/valor em que:
+        - não é possivel acessar um elemento por indice
+        - é uma estrutura não-ordenada
+        - usado para ler os elementos usando uma chave.
+        - não permite elementos com a mesma chave duplicados
+
+List - é uma coleção de dados em que:
+         - os elementos são organizados em uma sequência
+         - é possivel definir um comprimento para lista de forma fixa
+         - mutavel e indexada
+         - usado para ler elementos por seus índices.
+
+Set - é uma coleção de dados em que:
+        - é estrutura não ordenada
+        - não permite elementos duplicados
+        - não é indexada
+
+
+.map() - objetivo dessa função é transformar um elemento em outro
+
+
+O método map() pertence ao conjunto de funções disponíveis no objeto array para facilitar
+a sua manipulação. Basicamente, ele faz a leitura de todos os elementos do array, executa 
+uma função callback para cada um e devolve como retorno um novo array.
